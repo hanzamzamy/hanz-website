@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+.logo-sm {
+  width: 32px;
+  height: 32px;
+}
+.logo-m {
+  width: 64px;
+  height: 64px;
+}
+.m-face {
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+.ln-sm {
+  width: 25%
+}
+.ln-m {
+  width: 50%
+}
+.greyed {
+  filter: grayscale(100%);
+  transition: ease 500ms;
+}
+.greyed:hover {
+  filter: grayscale(0%);
+}
